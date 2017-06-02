@@ -1,0 +1,98 @@
+@font-face {
+	font-family: "Synapsian";
+	src: url("synapsian.ttf");
+}
+
+.synapsian {
+	font-family: "Synapsian";
+	font-size: 2em;
+	display: inline;
+}
+
+.synapsian_space {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+.synapsian_space.sky {
+	border-top: 0.05em solid;
+	height: 0.95em;
+}
+
+.synapsian_space.ground {
+	border-bottom: 0.05em solid;
+	height: 0.95em;
+}
+
+.synapsian_space.both {
+	border-bottom: 0.05em solid;
+	border-top: 0.05em solid;
+	height: 0.9em;
+}
+
+.synapsian_character {
+	display: inline-block;
+	font-size: 0.5em;
+	width: 1em;
+	height: 1em;
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+	vertical-align: top;
+	overflow: hidden;
+	float: left;
+}
+
+.synapsian_character.single {
+	font-size: 0.5em;
+	width: 1em;
+	height: 1em;
+	transform: scale(1,1);
+}
+
+.synapsian_character.thin {
+	font-size: 1em;
+	width: 1em;
+	height: 1em;
+	transform: scale(0.5,1);
+	margin-left: -0.25em;
+	margin-right: -0.25em;
+}
+
+.synapsian_character.wide {
+	font-size: 1em;
+	width: 1em;
+	height: 1em;
+	transform: scale(1,0.5);
+	margin-top: -0.25em;
+	margin-bottom: -0.25em;
+}
+
+.synapsian_character.full {
+	font-size: 1em;
+	width: 1em;
+	height: 1em;
+	transform: scale(1,1);
+}
+
+.synapsian_character.single_bar {
+	border-left: 0.1em solid;
+	width: 0.9em;
+}
+
+.synapsian_character.double_bar {
+	border-left: 0.12em double;
+	width: 0.88em;
+}
+
+.synapsian_bit {
+	position: relative;
+	top: 0.058em;
+	left: 0.1em;
+	font-size: 1.1em;
+}
