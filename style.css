@@ -18,6 +18,22 @@ table {
     color: #111;
 }
 
+table.soft tr td {
+    background-color: #CD9575;
+}
+
+table.hard tr td {
+    background-color: #915C83;
+}
+
+table.sky tr td {
+    background-color: #A1CAF1;
+}
+
+table.ground tr td {
+    background-color: #D1BEA8;
+}
+
 td {
     font-size: 2em;
     padding: 20px 20px;
