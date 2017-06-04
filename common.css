@@ -3,7 +3,7 @@
     src: url(synapsian/synapsian.ttf);
 }
 
-.wrapper {
+#wrapper {
     margin:20px auto;
     background-color: rgba(0,0,0, 0.5);
 }
@@ -25,6 +25,10 @@ body {
  
 img {
     max-width:400px;
+}
+
+p {
+    font-size: 18px;
 }
 
 h1,h2,h3 { 
