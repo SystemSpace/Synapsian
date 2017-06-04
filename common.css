@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Synapsian;
+    src: url(synapsian/synapsian.ttf);
+}
+
+.wrapper {
+    margin:20px auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.syn {
+    font-size: 3em;
+    font-family: Synapsian;
+}
+
+body {
+    margin:20px auto;
+    line-height:1.6;
+    font-size:14px;
+    color:#eee;
+    padding:0 10px; 
+    text-align: center;
+    background-image: url(https://systemspace.link/index.png);
+}    
+ 
+img {
+    max-width:400px;
+}
+
+h1,h2,h3 { 
+    line-height:1.2;
+    text-shadow:
+       -1px -1px 0 #000,  
+       1px  -1px 0 #000,
+       -1px 1px  0 #000,
+       1px  1px  0 #000;
+}
+
+.nonsynapsian {
+    font-family: initial;
+}
