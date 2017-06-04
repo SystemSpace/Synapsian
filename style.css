@@ -35,15 +35,15 @@ table.ground tr td {
 }
 
 td {
-    font-size: 2em;
-    padding: 20px 20px;
+    font-size: 1em;
+    padding: 5px 10px;
     background-color: #aaa;
 }
 
 body {
-    margin:40px auto;
+    margin:20px auto;
     line-height:1.6;
-    font-size:18px;
+    font-size:14px;
     color:#eee;
     padding:0 10px; 
     text-align: center;
