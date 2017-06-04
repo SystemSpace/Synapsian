@@ -57,3 +57,7 @@ img {
 h1,h2,h3 { 
     line-height:1.2;
 }
+
+.nonsynapsian {
+    font-family: initial;
+}
