@@ -1,0 +1,9 @@
+.dictsection {
+    width: 400px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+dt {
+    font-weight: bold;
+}
